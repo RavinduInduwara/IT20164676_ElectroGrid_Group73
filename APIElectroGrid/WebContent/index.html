@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Complaint Service</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        background: #252829;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      input,
+      .modal {
+        color: black;
+        vertical-align: middle;
+      }
+      .table-striped > tbody > tr:nth-child(2n + 1) > td,
+      .table-striped > tbody > tr:nth-child(2n + 1) > th {
+        background-color: #202020;
+      }
+      .row .alert {
+        margin-top: 25px;
+      }
+      th,
+      td {
+        border-top: none !important;
+      }
+
+      h3 {
+        background-color: #121212;
+        color:rgb(255, 255, 255);
+        padding: 12px;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        font-weight: bolder;
+        letter-spacing: 0.1em;
+      }
+
+      .modal-content {
+        border-radius: 0;
+      }
+
+      .modal-header,
+      .modal-footer {
+        background-color: #202020;
+        color: white;
+        border: 0;
+      }
+
+      .modal-body {
+        background: #202020;
+        color: white;
+      }
+
+      .close,
+      .close:hover {
+        color: white;
+      }
+
+      .btn {
+        font-weight: bolder;
+        letter-spacing: 0.2em;
+      }
+
+      #confetti-canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        pointer-events: none;
+      }
+    </style>
+
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+
+    <script>
+      if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+      }
+    </script>
+  </head>
+
+  <body translate="no">
+    <br><br><br><br><br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+          <a href="customer.html">
+            <button class="btn btn-success form-control" type="button">
+              Customer Service
+            </button></a>
+            <br><br><br><br>
+            <a href="payment.html">
+            <button class="btn btn-success form-control" type="button">
+              Payment Service
+            </button></a>
+
+        </div>
+        <div class="col-md-4">
+          <a href="unit.html">
+          <button class="btn btn-success form-control" type="button">
+            Billing Service
+          </button></a>
+          <br><br><br><br>
+          <a href="complaint.html">
+          <button class="btn btn-success form-control" type="button">
+            Complaint Service
+          </button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+   
+  </body>
+</html>
